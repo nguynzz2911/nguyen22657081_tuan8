@@ -1,0 +1,93 @@
+.customer-table-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th, .customer-table td {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.customer-table thead th {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.name-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.name-cell img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.status.new {
+  background: #eaf6ff;
+  color: #007bff;
+}
+
+.status.in-progress {
+  background: #fff4e5;
+  color: #ff9900;
+}
+
+.status.completed {
+  background: #e6f4ea;
+  color: #2e7d32;
+}
+
+.edit-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.table-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pagination button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #555;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #f46ca4;
+  color: white;
+  font-weight: bold;
+}
+
+.dots {
+  color: #aaa;
+}
