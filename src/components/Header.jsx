@@ -3,6 +3,7 @@ import SearchIcon from '../img/Search.png';
 import QuestionIcon from '../img/Question 1.png';
 import BellIcon from '../img/Bell 1.png';
 import AvatarImg from '../img/Avatar.png';
+import AvatarImg1 from '../img/Avatar 313.png';
 
 const Header = () => {
   return (
